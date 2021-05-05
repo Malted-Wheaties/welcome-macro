@@ -10,3 +10,8 @@
 #### If the title of the window is not identical to `window_name` in the code, then nothing will happen, and right control key functions as normal.
 
 Included in [releases](https://github.com/Malted-Wheaties/welcome-macro/releases) are pre-compiled binaries for the script as it is included in this repository. If you want to modify the script (which you probably will), you will need to download AutoHotKey and compile the modified script yourself.
+
+
+---
+### TODO
+#### In the future I might add a GUI for users to change the messages and control key on the fly.
