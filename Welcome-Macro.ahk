@@ -10,10 +10,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; The script will only trigger when a window with this name is open
 window_name = ・lounge - Discord
 
-press_once_message = welcome{!}{ENTER}
-press_twice_message = welcome all{!}{ENTER}
-press_thrice_message = :8screms:{ENTER}
-
 
 ~RControl::
 if !WinExist(window_name)
@@ -35,15 +31,15 @@ return
 Right_CTRL:
 if (rctrl_presses = 1) ; The key was pressed once.
 {
-    send, press_once_message 
+    send, welcome{!}{ENTER}
 }
 else if (rctrl_presses = 2) ; The key was pressed twice.
 {
-    send, press_twice_message 
+    send, welcome all{!}{ENTER}
 }
 else if (rctrl_presses > 2)
 {
-    send, press_thrice_message 
+    send, :8screms:{ENTER}
 }
 ; Regardless of which action above was triggered, reset the count to
 ; prepare for the next series of presses:
