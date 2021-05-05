@@ -1,4 +1,4 @@
-; Welcome Macro v.1.0 by Malted Wheaties
+; Welcome Macro v1.0 by Malted Wheaties
 ; github.com/Malted-Wheaties/welcome-macro
 
 
