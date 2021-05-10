@@ -3,6 +3,9 @@
 ## Description:
 ### A script to write and send different custom messages depending on how many times a key is pressed in quick succession.
 
+![GitHub all releases](https://img.shields.io/github/downloads/Malted-Wheaties/Welcome-Macro/total)
+
+
 #### In this case, the key in question is right control.
 #### The text after the `send` commands should contain the text you want to send when you press right control the respective number of times.
 #### If you want to add more actions for more than 3 presses, it is easy to do so with minimal script modification.
